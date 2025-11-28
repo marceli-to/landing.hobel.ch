@@ -7,7 +7,7 @@ robots: index_follow
 template: templates/two-column
 layout: layout/default
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1764352597
+updated_at: 1764353405
 content_left:
   -
     id: mht9hcow
@@ -95,9 +95,9 @@ content_left:
   -
     id: mht9lrys
     type: single_image
-    enabled: false
+    enabled: true
     spacing_before: true
-    image: hobel_genossenschaft_03_laden.jpg
+    image: hobel_genossenschaft_05_kontakt.jpg
 padding_x: true
 content_right:
   -

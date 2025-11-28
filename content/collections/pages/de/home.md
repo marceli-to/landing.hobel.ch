@@ -6,7 +6,7 @@ template: templates/landing
 layout: layout/default
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1764352128
+updated_at: 1764353639
 editor:
   -
     type: paragraph
@@ -85,13 +85,6 @@ content_left:
     type: page_teaser
     enabled: true
     link: 'entry::eb7cb323-58d9-4733-8e37-583888b2432f'
-  -
-    id: mij5nuo9
-    title: Kontakt
-    image: hobel_genossenschaft_05_kontakt.jpg
-    link: 'entry::852f2df9-fe92-411e-affa-788ab0779a1c'
-    type: page_teaser
-    enabled: true
 padding_x: false
 fullwidth: false
 background_header: bg-white

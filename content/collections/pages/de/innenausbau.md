@@ -7,7 +7,7 @@ robots: index_follow
 template: templates/two-column
 layout: layout/default
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1764352283
+updated_at: 1764353308
 content_left:
   -
     id: mij5s45l
@@ -27,7 +27,7 @@ content_right:
         content:
           -
             type: text
-            text: 'Die Genossenschaft Hobel ist verlässlicher Partner von Architekten, Designern und Bauherren. Wir setzen alles an Können und Leidenschaft daran, technisch und optisch anspruchsvolle Ideen in Holz umzusetzen.'
+            text: 'Die Genossenschaft Hobel ist verlässlicher Partner von Architekt:innen, Designer:innen und Bauherren. Wir setzen alles an Können und Leidenschaft daran, technisch und optisch anspruchsvolle Ideen in Holz umzusetzen.'
       -
         type: paragraph
         attrs:

@@ -7,7 +7,7 @@ robots: index_follow
 template: templates/two-column
 layout: layout/default
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1764352350
+updated_at: 1764353374
 content_left:
   -
     id: mij5tdtk
@@ -47,18 +47,18 @@ content_right:
             type: text
             text: laden@hobel.ch
       -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: Öffnungszeiten
-      -
         type: paragraph
         attrs:
           class: null
         content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: Öffnungszeiten
+          -
+            type: hardBreak
           -
             type: text
             text: 'Dienstag–Freitag: 9.45–14.00 Uhr, 14.30 – 18.30 Uhr'

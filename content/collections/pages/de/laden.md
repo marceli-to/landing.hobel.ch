@@ -7,7 +7,7 @@ robots: index_follow
 template: templates/two-column
 layout: layout/default
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1764353374
+updated_at: 1764353910
 content_left:
   -
     id: mij5tdtk
@@ -35,6 +35,14 @@ content_right:
         content:
           -
             type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.google.com/maps/place/Neumarkt+8,+8001+Z%C3%BCrich/@47.372555,8.5434806,905m/data=!3m2!1e3!4b1!4m6!3m5!1s0x479aa0a912ed5933:0x427d450c8b43fd0e!8m2!3d47.372555!4d'
+                  rel: null
+                  target: _blank
+                  title: null
             text: 'Neumarkt 8, 8001 Zürich'
           -
             type: hardBreak
@@ -45,6 +53,14 @@ content_right:
             type: hardBreak
           -
             type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'mailto:laden@hobel.ch'
+                  rel: null
+                  target: null
+                  title: null
             text: laden@hobel.ch
       -
         type: paragraph

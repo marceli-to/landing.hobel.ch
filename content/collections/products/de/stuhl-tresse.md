@@ -2,12 +2,6 @@
 id: 93c780a5-4a55-441d-b744-ef250741875b
 blueprint: product
 title: 'Stuhl Tresse'
-main_image: produkte/stuhl-tresse-2.jpg
-images:
-  - produkte/stuhl-tresse-1.jpg
-  - produkte/stuhl-tresse-2.jpg
-  - produkte/stuhl-tresse-3.jpg
-  - produkte/stuhl-tresse-4.jpg
 open_graph_type: website
 robots: index_follow
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39

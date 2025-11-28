@@ -2,12 +2,6 @@
 id: 30885897-1ae3-4661-9419-4bef90fd4377
 blueprint: product
 title: 'Hocker Solido Posto'
-main_image: produkte/stuhl-tresse-3.jpg
-images:
-  - produkte/stuhl-tresse-1.jpg
-  - produkte/stuhl-tresse-2.jpg
-  - produkte/stuhl-tresse-3.jpg
-  - produkte/stuhl-tresse-4.jpg
 open_graph_type: website
 robots: index_follow
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39

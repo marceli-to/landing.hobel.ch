@@ -1,0 +1,130 @@
+<header 
+  class="
+    {{ background_header ? background_header : 'bg-white' }}
+    w-full
+    top-0
+    z-40
+    pt-20
+    lg:pt-32
+    sticky
+    h-[var(--header-height-sm)]
+    lg:h-[var(--header-height-lg)]"
+  :class="{ '!bg-white' : menu }">
+
+  <div 
+    class="
+      lg:grid 
+      lg:grid-cols-12 
+      lg:gap-20 
+      h-full 
+      px-20
+      lg:px-0">
+
+    <!-- Title desktop, Backlink -->
+    <div 
+      class="
+        hidden 
+        lg:block 
+        lg:col-span-6 
+        lg:pl-20">
+
+
+      {{ if is_entry && collection == 'products' }}
+
+        <div 
+          class="
+            flex 
+            justify-between 
+            items-start">
+
+          <h1 class="text-lg leading-none">
+            {{ title }}
+          </h1>
+
+          {{ partial:products/components/backlink class="text-xs gap-x-8 mt-4" }}
+          
+        </div>
+
+      {{ else }}
+
+        <h1 
+          class="
+            text-lg 
+            leading-none">
+          {{ title }}
+        </h1>
+
+      {{ /if }}
+
+    </div>
+
+    <!-- Logo, Title mobile, Menu buttons -->
+    <div 
+      class="
+        flex 
+        justify-between 
+        items-start
+        w-full 
+        lg:pt-8
+        lg:col-span-5 
+        lg:col-start-8">
+
+      <!-- Logo, Title mobile, Backlink -->
+      <div 
+        class="
+          flex 
+          items-center 
+          gap-x-44 
+          lg:order-2 
+          lg:pr-45">
+
+        <a
+          href="/"
+          class="w-auto h-[var(--logo-height-sm)] lg:h-80">
+          {{ partial:icons/logo class="w-auto h-full" }}
+        </a>
+
+        <!-- Title, Backlink -->
+        {{ if is_entry && collection == 'products' }}
+
+          {{ partial:products/components/backlink class="text-xxs gap-x-8 lg:hidden" }}
+
+        {{ else }}
+
+          <h1 class="
+            font-muoto-regular 
+            text-xxs 
+            leading-none 
+            lg:hidden">
+            {{ title }}
+          </h1>
+
+        {{ /if }}
+        
+      </div>
+
+      <!-- Menu Buttons -->
+      <div class="lg:order-1 lg:-mt-2">
+
+        <div 
+          class="
+            w-40 
+            h-30 
+            flex 
+            items-center 
+            justify-center">
+
+          {{ partial:menu/buttons/show class="w-40 h-auto" }}
+          {{ partial:menu/buttons/hide class="w-30 h-auto" }}
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</header>
+
+{{ partial:menu/wrapper }}

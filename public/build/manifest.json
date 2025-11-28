@@ -1,0 +1,43 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-9d7d9996.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/css/fonts/Muoto-Light-Italic.woff": {
+    "file": "assets/Muoto-Light-Italic-ebded867.woff",
+    "src": "resources/css/fonts/Muoto-Light-Italic.woff"
+  },
+  "resources/css/fonts/Muoto-Light-Italic.woff2": {
+    "file": "assets/Muoto-Light-Italic-a1a392c5.woff2",
+    "src": "resources/css/fonts/Muoto-Light-Italic.woff2"
+  },
+  "resources/css/fonts/Muoto-Light.woff": {
+    "file": "assets/Muoto-Light-08b817f4.woff",
+    "src": "resources/css/fonts/Muoto-Light.woff"
+  },
+  "resources/css/fonts/Muoto-Light.woff2": {
+    "file": "assets/Muoto-Light-679984f1.woff2",
+    "src": "resources/css/fonts/Muoto-Light.woff2"
+  },
+  "resources/css/fonts/Muoto-Regular.woff": {
+    "file": "assets/Muoto-Regular-4a7fb7ef.woff",
+    "src": "resources/css/fonts/Muoto-Regular.woff"
+  },
+  "resources/css/fonts/Muoto-Regular.woff2": {
+    "file": "assets/Muoto-Regular-040b3615.woff2",
+    "src": "resources/css/fonts/Muoto-Regular.woff2"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-42968188.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "css": [
+      "assets/app-42968188.css"
+    ],
+    "file": "assets/app-d2dc20ca.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}

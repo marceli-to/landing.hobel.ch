@@ -1,0 +1,18 @@
+<div 
+  class="
+    w-full 
+    mt-7
+    lg:mt-40
+    sm:grid 
+    sm:grid-cols-12 
+    sm:gap-x-20
+    sm:gap-y-20
+    lg:gap-y-60">
+
+  {{ team_members }}
+    <div class="sm:col-span-6 md:col-span-4 lg:col-span-3">
+      {{ partial:fieldsets/team/team_member }}
+    </div>
+  {{ /team_members }}
+
+</div>

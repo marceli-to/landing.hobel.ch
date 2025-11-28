@@ -1,0 +1,22 @@
+{{ partial:layout/head }}
+
+{{ partial:layout/body }}
+
+  {{ if is_homepage }}
+
+    {{ partial:layout/header/landing }}
+
+  {{ else }}
+
+    {{ partial:layout/header/default }}
+    
+  {{ /if }}
+
+  {{ partial:layout/main }}
+
+  {{ partial:layout/footer }}
+
+{{ /partial:layout/body }}
+
+</html>
+{{ partial:layout/credits }}

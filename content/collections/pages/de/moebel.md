@@ -7,7 +7,7 @@ robots: index_follow
 template: templates/two-column
 layout: layout/default
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1764352647
+updated_at: 1764353995
 content_left:
   -
     id: mij5qun5
@@ -49,4 +49,5 @@ content_right:
 background_header: bg-white
 padding_x: false
 fullwidth: false
+meta_description: 'Wir entwerfen, planen und produzieren Möbel. Nach unseren Entwürfen – oder ganz nach Ihren Wünschen und Vorstellungen. Für unseren Laden am Neumarkt pflegen wir eine kleine eigene Kollektion an Möbeln, von denen wir manche auf Vorrat haben und einige bei Bestellungseingang herstellen.'
 ---

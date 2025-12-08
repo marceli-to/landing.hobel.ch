@@ -40,5 +40,6 @@ background_header: bg-white
 template: templates/two-column
 layout: layout/default
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1764352436
+updated_at: 1764354026
+meta_description: 'Unser Onlineshop wird derzeit überarbeitet und ist ab Mitte Dezember in alter Frische online. Unsere Produkte finden Sie in der Zwischenzeit im bestehenden Shop.'
 ---

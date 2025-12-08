@@ -7,7 +7,7 @@ robots: index_follow
 template: templates/two-column
 layout: layout/default
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1764353910
+updated_at: 1764354018
 content_left:
   -
     id: mij5tdtk
@@ -87,4 +87,5 @@ content_right:
     enabled: true
 fullwidth: false
 background_header: bg-white
+meta_description: 'In unserem Laden im Niederdorf finden Sie eine handverlesene Auswahl an Holztischen, Holzstühlen und stilvollen Accessoires. Gerne beraten wir Sie hier persönlich für individuelle Tischanfertigungen.'
 ---

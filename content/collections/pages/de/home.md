@@ -6,7 +6,7 @@ template: templates/landing
 layout: layout/default
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1764353639
+updated_at: 1764353983
 editor:
   -
     type: paragraph
@@ -88,4 +88,5 @@ content_left:
 padding_x: false
 fullwidth: false
 background_header: bg-white
+meta_description: 'Wir überarbeiten unseren Unternehmensauftritt, unsere neue Website ist ab Mitte Dezember 2025 online.'
 ---

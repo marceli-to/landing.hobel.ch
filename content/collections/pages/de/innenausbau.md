@@ -7,7 +7,7 @@ robots: index_follow
 template: templates/two-column
 layout: layout/default
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1764353308
+updated_at: 1764354007
 content_left:
   -
     id: mij5s45l
@@ -40,4 +40,5 @@ content_right:
     enabled: true
 fullwidth: false
 background_header: bg-white
+meta_description: 'Die Genossenschaft Hobel ist verlässlicher Partner von Architekt:innen, Designer:innen und Bauherren. Wir setzen alles an Können und Leidenschaft daran, technisch und optisch anspruchsvolle Ideen in Holz umzusetzen. Bei Hobel wird der Innenausbau für öffentliche Bauten, Büroräume, Kinos oder Hotels, aber auch das Herstellen von Möbeln und Küchen mit Engagement und Professionalität umgesetzt.'
 ---
